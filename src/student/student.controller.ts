@@ -16,7 +16,7 @@ export class StudentController {
       major,
       phoneNumber,
     );
-    return '등록 완료!';
+    return '등록 완료!!';
   }
 
   @Get('/search/:name')
